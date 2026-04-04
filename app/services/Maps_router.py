@@ -6,7 +6,7 @@ import urllib.parse
 print("--- UTTSAV GOOGLE MAPS ROUTING ENGINE ---")
 
 # TODO: Replace with your actual Google Cloud API Key
-GOOGLE_MAPS_API_KEY = "AIzaSyBmokYSwME1Ieblh1gmxBmhBJ1XyIl4cGQ"
+GOOGLE_MAPS_API_KEY = "your_api_key"
 
 def fetch_route_options(origin: str, destination: str) -> dict:
     """
